@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "nome": "Usuário de Teste",
+        "email": "teste@exemplo.com",
+        "senha": "$2y$10$vOQvOUoPTX3ii9lILy47xuzmZ3A/JFOtPkVdQooKmika9SdGej.du"
+    },
+    {
+        "id": 2,
+        "nome": "Raposo",
+        "email": "teste@raposo.com",
+        "senha": "$2y$10$X0D7sdcagEy55V4HIN5bVORO2SgW68tNSqX/PGDyFoVb4nd8kEFpK"
+    }
+]

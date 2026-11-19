@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nome": "Palestra: Introdução à Segurança na Web",
+        "descricao": "Conversa sobre boas práticas de segurança em aplicações web, com exemplos de validação de dados e proteção de sessões.",
+        "data": "2026-12-03",
+        "horario": "19:00",
+        "local": "Auditório do Prédio de Aulas",
+        "criado_por": 1
+    },
+    {
+        "id": 2,
+        "nome": "Oficina de Git e GitHub",
+        "descricao": "Oficina prática de versionamento: commits, branches e pull requests. Traga seu notebook.",
+        "data": "2026-12-05",
+        "horario": "14:00",
+        "local": "Laboratório de Informática 2",
+        "criado_por": 1
+    },
+    {
+        "id": 3,
+        "nome": "Minicurso de CSS Responsivo",
+        "descricao": "Minicurso de duas horas sobre flexbox, grid e media queries para adaptar páginas a telas pequenas.",
+        "data": "2026-12-10",
+        "horario": "09:30",
+        "local": "Sala 204",
+        "criado_por": 1
+    },
+    {
+        "id": 4,
+        "nome": "Reunião do grupo de extensão",
+        "descricao": "Alinhamento das atividades do semestre e divisão das tarefas entre os integrantes.",
+        "data": "2026-12-12",
+        "horario": "16:00",
+        "local": "Sala de reuniões do departamento",
+        "criado_por": 1
+    }
+]
