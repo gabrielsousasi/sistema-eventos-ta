@@ -61,8 +61,8 @@ Requisito: **PHP 7.4 ou superior** instalado (ou XAMPP/WAMP/Laragon).
 ### Opção 1 – servidor embutido do PHP
 
 ```bash
-git clone <link-do-repositorio>
-cd sistema-eventos
+git clone https://github.com/gabrielsousasi/sistema-eventos-ta.git
+cd sistema-eventos-ta
 php -S localhost:8000
 ```
 
