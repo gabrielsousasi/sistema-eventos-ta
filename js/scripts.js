@@ -1,4 +1,4 @@
-/* Pauta – validações e interações (JavaScript puro) */
+/* To Atoa - Events – validações e interações (JavaScript puro) */
 
 document.addEventListener('DOMContentLoaded', function () {
 

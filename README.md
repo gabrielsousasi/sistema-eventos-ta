@@ -1,4 +1,8 @@
-# Pauta – Sistema de Agendamento de Eventos
+<p align="center"><img src="img/logo-republica.png" alt="República To Atoa, UFV-CRP" width="140"></p>
+
+# To Atoa - Events – Sistema de Agendamento de Eventos
+
+Sistema desenvolvido com a identidade visual da **República To Atoa (UFV-CRP)**.
 
 Trabalho avaliativo de **SIN 493 – Tópicos Especiais III: Introdução à Programação Web**
 (UFV – Campus Rio Paranaíba, prof. Bernardo Teixeira de Miranda).
@@ -18,7 +22,7 @@ vê os detalhes, agenda presença e cancela o agendamento quando quiser.
 ## Tecnologias utilizadas
 
 - HTML5
-- CSS3 (arquivo único, `css/estilo.css`)
+- CSS3 (arquivo único, `css/estilo.css`), com tema preto e branco da república
 - JavaScript puro (`js/scripts.js`)
 - PHP puro (sessões, `password_hash`, leitura e gravação de arquivos)
 - Arquivos JSON como armazenamento (`dados/`)
@@ -99,6 +103,7 @@ sistema-eventos/
 |-- includes/               funções, cabeçalho e rodapé
 |-- css/estilo.css
 |-- js/scripts.js
+|-- img/                    logotipos da República To Atoa
 |-- dados/                  usuarios.json, eventos.json, agendamentos.json
 `-- docs/                   capturas de tela
 ```

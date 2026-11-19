@@ -15,13 +15,17 @@ function link_menu($arquivo, $texto, $atual)
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?= e($titulo ?? 'Pauta') ?> | Pauta</title>
+    <title><?= e($titulo ?? 'Início') ?> | To Atoa - Events</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
 <header class="topo">
     <div class="topo-interno">
-        <a class="marca" href="<?= $logado ? 'inicio.php' : 'login.php' ?>">Pauta</a>
+        <a class="marca" href="<?= $logado ? 'inicio.php' : 'login.php' ?>" aria-label="To Atoa - Events, página inicial">
+            <img src="img/logo-nome.png" alt="To Atoa" class="marca-logo">
+            <span class="marca-texto">Events</span>
+        </a>
         <?php if ($logado): ?>
             <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
             <nav class="menu" id="menu" aria-label="Navegação principal">

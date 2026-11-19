@@ -39,6 +39,7 @@ $titulo = 'Entrar';
 require 'includes/cabecalho.php';
 ?>
 <section class="cartao-form">
+    <img src="img/logo-republica.png" alt="República To Atoa, UFV-CRP" class="logo-auth">
     <h1>Entrar</h1>
     <p class="apoio">Acesse sua conta para ver e agendar eventos.</p>
 

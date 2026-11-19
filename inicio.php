@@ -23,6 +23,8 @@ foreach (ler_json('agendamentos.json') as $ag) {
 $titulo = 'Início';
 require 'includes/cabecalho.php';
 ?>
+<section class="hero">
+<div>
 <h1>Olá, <?= e($primeiro_nome) ?></h1>
 <p class="apoio">
     <?php if ($total_agendados === 0): ?>
@@ -31,6 +33,10 @@ require 'includes/cabecalho.php';
         Você tem <?= $total_agendados ?> <?= $total_agendados === 1 ? 'agendamento' : 'agendamentos' ?>.
     <?php endif; ?>
 </p>
+<a class="botao" href="criar-evento.php">Criar evento</a>
+</div>
+<img src="img/logo-republica.png" alt="" class="hero-logo" aria-hidden="true">
+</section>
 
 <section>
     <div class="secao-titulo">

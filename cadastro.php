@@ -63,6 +63,7 @@ $titulo = 'Criar conta';
 require 'includes/cabecalho.php';
 ?>
 <section class="cartao-form">
+    <img src="img/logo-republica.png" alt="República To Atoa, UFV-CRP" class="logo-auth">
     <h1>Criar conta</h1>
     <p class="apoio">Leva menos de um minuto.</p>
 
